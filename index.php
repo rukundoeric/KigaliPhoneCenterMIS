@@ -9,8 +9,5 @@
   <title>Document</title>
 </head>
 <body>
-<?php 
-  echo $_ENV['DB_HOST'];
-?>
 </body>
 </html>
