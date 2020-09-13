@@ -3,7 +3,7 @@ IndexIgnore * # prevent directory listing
 Order deny,allow
 Allow from *
 
-# ------------------------------------------
+# ------------------------zc2cb .nnv.m;/.a efjq ;rk3 nlke@b,------------------
 # Rewrite so that php extentions are not shown
 
 RewriteEngine On
