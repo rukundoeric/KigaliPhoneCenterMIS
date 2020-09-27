@@ -13,7 +13,7 @@
 			        <div class="col-md-4"></div>
 			        <div class="col-md-4" id="content">
 			            <div class="profil">
-			                <img src="img/loginpic.png"  class="img-circle">
+			                <img src="assets/img/loginpic.png"  class="img-circle">
 	                    </div>
 			            <form action="" method="">
 			  				<div class="form-group input">

@@ -3,10 +3,8 @@
 	<head>
 		<title>logof</title>
 		<meta charset="utf-8">
-	        <link rel="stylesheet" href="css/bootstrap.min.css">
-	        <link rel="stylesheet" href="css/font-awesome.min.css">
-	        <link rel="stylesheet" href="css/animate.min.css">
-	        <link rel="stylesheet" type="text/css" href="style.css">
+		<?php require_once "meta.php"?>
+	        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 		<section>
@@ -15,7 +13,7 @@
 		            <div class="col-md-4"></div>
 		            <div class="col-md-4">
 			            <div class="profil-image">
-			                 <img src="img/ppp.png"  class="img-circle"> 
+			                 <img src="assets/img/ppp.png"  class="img-circle"> 
 			            <div class="std-name" style="margin-top:20px;">
                                 <p class="text-center">JOSIAS LESSA</p>
                             </div>
@@ -35,7 +33,5 @@
 		        </div>       
 		    </div>
 		</section>
-	    <script type="text/javascript" src="js/jquery.js"></script>
-	    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</body>
 </html>
