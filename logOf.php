@@ -21,7 +21,7 @@
 		                <div class="logOfForm">
 		                 	<form action="" method="">
 				  				<div class="form-group">
-				  					<input type="password" name="" class="form-control" required placeholder="Your Password ">
+				  					<input type="password" name="" class="form-control" required placeholder="Your Password " id="form-controlLogin">
 				  				    <input type="submit" class="btn btn-block" value="LOGIN" />
 				  				</div>
 		  					</form>
