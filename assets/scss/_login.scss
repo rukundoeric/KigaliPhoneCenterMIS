@@ -1,60 +1,84 @@
-.profil {
-  height: 460px;
-  border-radius: 0px;
-  text-align: center;
-}
-.profil img {
-  margin-top: 20px;
-  border-radius: 20%;
-  height: 110px;
-  width: 110px;
-}
-#content {
-  border: 1px solid #e3e3e3;
-  margin-top: 20px;
-  padding-bottom: 50px;
-  padding-left: 35px;
-  padding-right: 35px;
-}
-form {
-  margin-top: -300px;
-}
-.password {
-  margin-top: 30px;
-}
-.btn-block {
-  margin-top: 30px;
-  background-color:#f8e213;
-	
-  border-radius: 0px;
-  color: #ffffff;
-  cursor: pointer;
-}
-samp {
-  margin-top: 20px;
-  font-size: 11px;
-  padding-bottom: 20px;
-  color: #a7a7a7;
-}
-label {
-  color: #a7a7a7;
-  text-align: left;
-}
-#form-controlLogin {
-  box-shadow: none;
-  border-radius: 0%;
-}
-.profil-image {
-  text-align: center;
-  margin-top: 30px;
-}
-.profil-image img {
-  margin-top: 20px;
-  border-radius: 50%;
-  border: 5px solid #f8e213;
-  height: 140px;
-  width: 140px;
-}
-.logOfForm {
-  margin-top: 320px;
+.login-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg_gray_color;
+
+    .profil {
+        height: 460px;
+        border-radius: 0px;
+        text-align: center;
+    }
+
+    .profil img {
+        margin-top: 20px;
+        border-radius: 20%;
+        height: 110px;
+        width: 110px;
+    }
+
+    #content {
+        background-color: $bg_white_color;
+        border: 1px solid $border_color;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    form {
+        margin-top: -300px;
+    }
+
+    .password {
+        margin-top: 30px;
+    }
+
+    .btn-block {
+        margin-top: 30px;
+        background-color: $primary_color;
+        border-radius: 0px;
+        color: $white_color;
+        cursor: pointer;
+
+        &:hover {
+          color: $white_color;
+          transform: scale(1.02);
+        }
+    }
+
+    samp {
+        margin-top: 20px;
+        font-size: 11px;
+        padding-bottom: 20px;
+        color: $text_color_1;
+    }
+
+    label {
+        color: $text_color_1;
+        text-align: left;
+    }
+
+    #form-controlLogin {
+        box-shadow: none;
+        border-radius: 0%;
+    }
+
+    .profil-image {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .profil-image img {
+        margin-top: 20px;
+        border-radius: 50%;
+        border: 5px solid $accent_color;
+        height: 140px;
+        width: 140px;
+    }
+
+    .logOfForm {
+        margin-top: 320px;
+    }
 }
