@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/themeLight.css">
     <?php require_once "meta.php"?>
     <?php require_once "script.php"?>
-    <title>login</title>
+    <title> login</title>
 </head>
     <body>
         <section>

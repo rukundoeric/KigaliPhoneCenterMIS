@@ -3,12 +3,14 @@
   border-radius: 0px;
   text-align: center;
 }
+
 .profil img {
   margin-top: 20px;
   border-radius: 20%;
   height: 110px;
   width: 110px;
 }
+
 #content {
   border: 1px solid #e3e3e3;
   margin-top: 20px;
@@ -16,37 +18,45 @@
   padding-left: 35px;
   padding-right: 35px;
 }
+
 form {
   margin-top: -300px;
 }
+
 .password {
   margin-top: 30px;
 }
+
 .btn-block {
   margin-top: 30px;
-  background-color: #1786d4;
+  background-color: #f8e213;
   border-radius: 0px;
   color: #ffffff;
   cursor: pointer;
 }
+
 samp {
   margin-top: 20px;
   font-size: 11px;
   padding-bottom: 20px;
   color: #a7a7a7;
 }
+
 label {
   color: #a7a7a7;
   text-align: left;
 }
+
 #form-controlLogin {
   box-shadow: none;
   border-radius: 0%;
 }
+
 .profil-image {
   text-align: center;
   margin-top: 30px;
 }
+
 .profil-image img {
   margin-top: 20px;
   border-radius: 50%;
@@ -54,6 +64,9 @@ label {
   height: 140px;
   width: 140px;
 }
+
 .logOfForm {
   margin-top: 320px;
 }
+
+/*# sourceMappingURL=themeLight.css.map */
