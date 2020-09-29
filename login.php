@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <?php require_once "meta.php"?>
+    <?php require_once "script.php"?>
     <title>login</title>
 </head>
 
@@ -22,11 +23,11 @@
                             <label for="email">USER NAME</label>
                             <input type="email" name="" class="form-control" id="form-controlLogin" required>
                             <label for="password" class="password">PASSWORD</label>
-                            <input type="password" name="" class="form-control" id="form-controlLogin" required>
+                            <input type="password" id="form-controlLogin" name="password" class="form-control" data-toggle="password">
                             <input type="submit" class="btn btn-block" value="LOGIN" />
                         </div>
                     </form>
-                    <samp>FORGOT PASSWORD ? <a href="mailto:josiaslessa@gmail.com">PLEASE CONTACT YOUR ADMINISTATOR</a>
+                    <samp>FORGOT PASSWORD ? <a href="mailto:josiaslessa1@gmail.com">PLEASE CONTACT YOUR ADMINISTATOR</a>
                     </samp>
                 </div>
                 <div class="col-md-4"></div>
