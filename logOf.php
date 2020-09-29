@@ -4,7 +4,8 @@
 		<title>logof</title>
 		<meta charset="utf-8">
 		<?php require_once "meta.php"?>
-	        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<?php require_once "script.php"?>
+	      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 		<section>
@@ -14,9 +15,9 @@
 		            <div class="col-md-4">
 			            <div class="profil-image">
 			                 <img src="assets/img/ppp.png"  class="img-circle"> 
-			            <div class="std-name" style="margin-top:20px;">
-                                <p class="text-center">JOSIAS LESSA</p>
-                            </div>
+										<div class="std-name" style="margin-top:20px;">
+													<p class="text-center">JOSIAS LESSA</p>
+										</div>
 			            </div>
 		                <div class="logOfForm">
 		                 	<form action="" method="">
