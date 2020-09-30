@@ -10,7 +10,6 @@
         border-radius: 0px;
         text-align: center;
     }
-
     .profil img {
         margin-top: 20px;
         border-radius: 20%;
@@ -18,7 +17,7 @@
         width: 110px;
     }
 
-    #content {
+    #loginContent {
         background-color: $bg_white_color;
         border: 1px solid $border_color;
         margin-top: 20px;
@@ -37,7 +36,7 @@
 
     .btn-block {
         margin-top: 30px;
-        background-color: $primary_color;
+        background-color: $buttons_color;
         border-radius: 0px;
         color: $white_color;
         cursor: pointer;
@@ -53,6 +52,12 @@
         font-size: 11px;
         padding-bottom: 20px;
         color: $text_color_1;
+        text-decoration: none;
+    
+    }
+    samp a{
+     color:$buttons_color;
+     text-decoration: none;
     }
 
     label {

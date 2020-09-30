@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
-  
   <?php require_once "meta.php"?>
   <?php require_once "script.php"?>
   <title> login</title>
@@ -14,7 +12,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-md-4" id="content">
+        <div class="col-md-4" id="loginContent">
           <div class="profil">
             <img src="assets/img/loginpic.png" class="img-circle">
           </div>
