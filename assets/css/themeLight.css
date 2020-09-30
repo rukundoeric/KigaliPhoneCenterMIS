@@ -3,57 +3,86 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fcfcfc; }
-  .login-section .profil {
-    height: 460px;
-    border-radius: 0px;
-    text-align: center; }
-  .login-section .profil img {
-    margin-top: 20px;
-    border-radius: 20%;
-    height: 110px;
-    width: 110px; }
-  .login-section #content {
-    background-color: white;
-    border: 1px solid #e3e3e3;
-    margin-top: 20px;
-    padding-bottom: 50px;
-    padding-left: 35px;
-    padding-right: 35px; }
-  .login-section form {
-    margin-top: -300px; }
-  .login-section .password {
-    margin-top: 30px; }
-  .login-section .btn-block {
-    margin-top: 30px;
-    background-color: #1786D4;
-    border-radius: 0px;
-    color: white;
-    cursor: pointer; }
-    .login-section .btn-block:hover {
-      color: white;
-      transform: scale(1.02); }
-  .login-section samp {
-    margin-top: 20px;
-    font-size: 11px;
-    padding-bottom: 20px;
-    color: #a7a7a7; }
-  .login-section label {
-    color: #a7a7a7;
-    text-align: left; }
-  .login-section #form-controlLogin {
-    box-shadow: none;
-    border-radius: 0%; }
-  .login-section .profil-image {
-    text-align: center;
-    margin-top: 30px; }
-  .login-section .profil-image img {
-    margin-top: 20px;
-    border-radius: 50%;
-    border: 5px solid #F8E213;
-    height: 140px;
-    width: 140px; }
-  .login-section .logOfForm {
-    margin-top: 320px; }
+  background-color: #fcfcfc;
+}
+.login-section .profil {
+  height: 460px;
+  border-radius: 0px;
+  text-align: center;
+}
+.login-section .profil img {
+  margin-top: 20px;
+  border-radius: 20%;
+  height: 110px;
+  width: 110px;
+}
+.login-section #loginContent {
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.login-section form {
+  margin-top: -300px;
+}
+.login-section .password {
+  margin-top: 30px;
+}
+.login-section .btn-block {
+  margin-top: 30px;
+  background-color: #1786D4;
+  border-radius: 0px;
+  color: white;
+  cursor: pointer;
+}
+.login-section .btn-block:hover {
+  color: white;
+  transform: scale(1.02);
+}
+.login-section samp {
+  margin-top: 20px;
+  font-size: 11px;
+  padding-bottom: 20px;
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.login-section samp a {
+  color: #1786D4;
+  text-decoration: none;
+}
+.login-section label {
+  color: #a7a7a7;
+  text-align: left;
+}
+.login-section #form-controlLogin {
+  box-shadow: none;
+  border-radius: 0%;
+}
+.login-section #form-controlLoginP {
+  box-shadow: none;
+  border-radius: 0%;
+}
+.login-section .profil-image {
+  text-align: center;
+  margin-top: 30px;
+}
+.login-section .profil-image img {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 5px solid #F8E213;
+  height: 140px;
+  width: 140px;
+}
+.login-section .logOfForm {
+  margin-top: 320px;
+}
+.login-section .alert {
+  color: #e70000;
+  font-size: 10px;
+  margin-bottom: -30px;
+  margin-left: -20px !important;
+}
 
 /*# sourceMappingURL=themeLight.css.map */

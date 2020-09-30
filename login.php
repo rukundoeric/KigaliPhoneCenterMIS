@@ -6,7 +6,6 @@
   <?php require_once "script.php"?>
   <title> login</title>
 </head>
-
 <body>
   <section class="login-section">
     <div class="container">
@@ -20,9 +19,10 @@
             <div class="form-group input">
               <label for="email">USER NAME</label>
               <input type="email" name="" class="form-control" id="form-controlLogin" required>
+               <p class="alert">Wrong User Name</p>
               <label for="password" class="password">PASSWORD</label>
-              <input type="password" id="form-controlLogin" name="password" class="form-control">
-
+              <input type="password" id="form-controlLoginP" name="password" class="form-control">
+              <p class="alert">Wrong Password</p>
               <input type="submit" class="btn btn-block" value="LOGIN" />
             </div>
           </form>
@@ -34,8 +34,8 @@
     </div>
   </section>
   <script>
-  $('#password').password();
-  </script>
+   $('#form-controlLoginP').password();
+ </script>
 </body>
 
 </html>
