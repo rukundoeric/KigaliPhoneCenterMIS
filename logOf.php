@@ -7,7 +7,7 @@
 		<?php require_once "script.php"?>
 	</head>
 	<body>
-		<section>
+		<section class="logof-container">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-md-4"></div>
@@ -15,13 +15,14 @@
 			            <div class="profil-image">
 			                 <img src="assets/img/ppp.png"  class="img-circle"> 
 										<div class="std-name" style="margin-top:20px;">
-													<p class="text-center">JOSIAS LESSA</p>
+													<p class="text-center" id="displayName">JOSIAS LESSA</p>
 										</div>
 			            </div>
 		                <div class="logOfForm">
 		                 	<form action="" method="">
 				  				<div class="form-group">
-				  					<input type="password" name="" class="form-control" required placeholder="Your Password " id="form-controlLogin">
+										<input type="password" name="" class="form-control" required placeholder="Your Password " id="form-controlLogof">
+										<p class="alert">Wrong Password</p>
 				  				    <input type="submit" class="btn btn-block" value="LOGIN" />
 				  				</div>
 		  					</form>
