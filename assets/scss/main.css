@@ -3,55 +3,75 @@
   color: #FFFFFF;
   text-transform: capitalize;
 }
+
 .table-container .badge {
   margin: 0 auto;
   padding: 10px;
 }
+
 .table-container .badge-status {
   border-radius: 10em;
   width: 80px;
 }
+
 .table-container .badge-warning {
   color: #FFF;
 }
+
 .table-container .badge-warning:hover {
   background: #ffc107;
   color: #fff;
 }
+
 .table-container .badge-primary:hover {
   background: #3366ff;
   color: #fff;
 }
+
 .table-container .badge-success:hover {
   background: #28a745;
   color: #fff;
 }
+
 .table-container .badge-id {
   border-radius: none;
   width: 100%;
 }
+
 .table-container .table {
   text-align: center;
   font-family: sans-serif;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: .5s;
+  transition: .5s;
   margin: 0 auto;
   font-size: 14px;
 }
+
 .table-container .table th {
   padding: 15px;
   color: #413f3f !important;
   font-weight: 550;
 }
+
 .table-container .table td > div {
   height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 .table-container .table td > div span {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -59,14 +79,16 @@
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+
 .table-container .table .btn {
   color: #FFF;
 }
+
 .table-container .table .status-warning {
   color: #ffc107;
 }
+
 .table-container .table .status-primary {
   color: #1fad42;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
