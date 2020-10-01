@@ -1,5 +1,5 @@
 <?php
-$isDarkMode=false;
+$isDarkMode=true;
 if ($isDarkMode):
 ?>
 <link rel="stylesheet" type="text/css" href="assets/css/themeDark.css">
